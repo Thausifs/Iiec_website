@@ -1,0 +1,149 @@
+.footermaincon{
+    background: linear-gradient(135deg, #390101 0%, #330101 100%);
+   box-shadow: var(--box-shadow2);
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+}
+.footerulcon{
+        padding: 4%;
+        width: 100%;
+}
+.footerdivs{
+    width:100%;
+    /* display: grid; */
+    /* border: 2px solid white; */
+    
+}
+
+.linksdivfooter{
+   display: grid ;
+   grid-template-areas:
+   ' mainlinks visa'
+   'education immigration'
+   ;
+
+}
+.footerdivs input , .footerdivs textarea {
+    width: 18.681vw;
+height: 3.333vw;
+background: #F6F6F6;
+border-radius: 0.694vw;
+outline: none;
+border: none;
+padding: 1.5%;
+margin:1.5%;
+box-shadow: var(--box-shadow1);
+
+}
+.footerdivs textarea{
+    width: 39.306vw;
+    height: 9.583vw;
+}
+.footerulcon li {
+    list-style:none;
+}
+
+.msg {
+    width: 18.681vw;
+height: 3.333vw;
+background: linear-gradient(135deg, #F9353B 0%, #E13035 100%);
+box-shadow: -0.14vw 0.14vw 0.28vw rgba(95, 20, 22, 0.2), 0.14vw -0.14vw 0.28vw rgba(95, 20, 22, 0.2), -0.14vw -0.14vw 0.28vw rgba(255, 82, 90, 0.9), 0.14vw 0.14vw 0.35vw rgba(95, 20, 22, 0.9), inset 0.07vw 0.07vw 0.14vw rgba(255, 82, 90, 0.3), inset -0.07vw -0.07vw 0.14vw rgba(95, 20, 22, 0.5);
+border-radius: 0.694vw;
+border:none;
+outline: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 1.319vw;
+margin-left: 25%;
+color: #CDD5FF;
+}
+.msg:hover {
+    background: linear-gradient(135deg, #6e1619 0%, #6a080b 100%);
+}
+.footerhead{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.389vw;
+color: #CDD5FF;
+margin-left: 13%;
+}
+.footerpara{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 1.250vw;
+color: #CDD5FF;
+}
+.mglf_3{
+    margin-left: 14%;
+}
+.footerbtm{
+    margin-top: 3%;
+}
+.footerbtm hr {
+    width:90%;
+    height: 0.1px;  
+    border: none;
+    background-color: rgba(235, 235, 235, 0.2);
+}
+.cpyrights{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 0.556vw;
+color: #EBEBEB;
+text-align: center;
+}
+.footerplaceholder{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.650vw;
+color: #000000;
+}
+.footerplaceholder::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.450vw;
+    color: #000000;
+}
+.footerpara li a {
+    color: #CDD5FF; 
+    text-decoration: none;
+}
+.footerpara li a:hover {
+    color: #5D77FF;
+        
+}
+@media only screen and  (max-width:480px) and (min-width:100px){
+    .footerhead{
+        font-size: 2.389vw;
+    }
+    .footerpara{
+        font-size: 2.150vw;
+    }
+    .footerdivs input {
+        width: 36.681vw;
+        height: 6.333vw;
+        border-radius:1.2vw ;
+    }
+    .footerdivs textarea {
+        width: 76.681vw;
+        height: 14.333vw;
+    }
+    .msg {
+        margin-left: 30%;
+    }
+    .footerform{
+        margin-left:9%;
+    }
+    .footerplaceholder{
+        font-size: 2.250vw;
+    }
+    .footerplaceholder::placeholder {
+        font-size: 3.250vw;
+    }
+}

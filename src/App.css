@@ -1,0 +1,4 @@
+:root {
+   --box-shadow1: 0.034vw 0.034vw 0.14vw rgba(255, 255, 255, 0.3), -0.034vw -0.034vw 0.14vw rgba(98, 98, 98, 0.5), inset -0.28vw 0.28vw 0.56vw rgba(98, 98, 98, 0.2), inset 0.28vw -0.28vw 0.56vw rgba(98, 98, 98, 0.2), inset -0.28vw -0.28vw 0.56vw rgba(255, 255, 255, 0.9), inset 0.28vw 0.28vw 0.69vw rgba(98, 98, 98, 0.9);
+  --box-shadow2: -0.486vw 0.486vw 0.972vw rgba(22, 0, 0, 0.2), 0.486vw -0.486vw 0.972vw rgba(22, 0, 0, 0.2), -0.486vw -0.486vw 0.972vw rgba(86, 2, 2, 0.9), 0.486vw 0.486vw 1.250vw rgba(22, 0, 0, 0.9), inset 0.069vw 0.069vw 0.14vw rgba(86, 2, 2, 0.3), inset -0.069vw -0.069vw 0.14vw rgba(22, 0, 0, 0.5);
+}

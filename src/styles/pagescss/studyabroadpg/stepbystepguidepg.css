@@ -1,0 +1,50 @@
+.page{
+    background: #202020;
+}
+
+
+.dis_flex{
+    display: flex;
+   
+}
+.flex-container{
+    width:50%;
+    margin-top: 5%;
+    margin-bottom: 1.8%;
+    padding-left: 1%;
+    padding-right: 1%;
+   
+    
+    
+}
+.pd_lt_rt {
+    padding-left: 1%;
+    padding-right:1%
+}
+.rg-3p{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.pagebtmcon{
+    padding-left: 1%;
+    padding-right:1%;
+    padding-bottom: 2%;
+
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:100px){
+    .dis_flex{
+        display: block;
+        
+        
+    }
+    .flex-container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 2vw; */
+
+    }
+}

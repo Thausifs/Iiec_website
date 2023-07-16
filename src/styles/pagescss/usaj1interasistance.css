@@ -1,0 +1,41 @@
+.darkeddiv {
+    width: 100%;
+    display: flex;
+    background-color: rgb(68, 65, 65);
+    border-radius: 1vw;
+    padding: 2%;
+}
+.darkeddivfirst {
+    width: 30%;
+    padding: 0% 1%;
+}
+.marginbtmelligi {
+    margin-bottom: 30vw;
+}
+.marbtmselection {
+    margin-bottom: 9vw;
+}
+.marbtmfeatures {
+    margin-bottom: 12vw;
+}
+.marginbtmelligiusaj1sum {
+    margin-bottom: 25vw;
+}
+.marbtmselectionusajisum {
+    margin-bottom: 3vw;
+}
+.marbtmfeaturesusaj1sum {
+    margin-bottom: 31vw;
+}
+.marginbtmelligiusaj1care {
+    margin-bottom: 47vw;
+}
+.marbtmselectionusajicare {
+    margin-bottom: 3vw;
+}
+.marbtmfeaturesusaj1care {
+    margin-bottom: 33vw;
+}
+.marbtmpgearnusaj1care {
+    margin-bottom: 6vw;
+}

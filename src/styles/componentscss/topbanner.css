@@ -1,0 +1,114 @@
+:root {
+    --box-shadow: -0.347vw 0.347vw 0.7vw rgba(13, 13, 13, 0.2), 0.347vw -0.347vw 0.7vw rgba(13, 13, 13, 0.2), -0.347vw -0.347vw 0.7vw rgba(51, 51, 51, 0.9), 0.347vw 0.347vw 0.902vw rgba(13, 13, 13, 0.9), inset 0.138vw 0.138vw 0.277vw rgba(14, 14, 14, 0.5), inset -0.138vw -0.138vw 0.278vw rgba(13, 13, 13, 1);
+}
+
+
+.topbanner_studyabroad,.topbanner_immigration,.topbanner_training, .topbanner_visaguidances {
+    width:20.094vw ;
+    height:15vw ;
+    /* border: 1px solid black; */
+    border-radius: 1.497vw;
+    background-image: linear-gradient(to bottom right,rgb(62, 62, 62),rgb(42,42,42));
+   
+    box-shadow: var(--box-shadow);
+
+    /* display: flex; */
+    margin: 1% 4% 3% 1%;
+    /* flex:45%; */
+    padding: 4% 4% 4% 4%;
+    /* font-size: 400; */
+
+    
+
+}
+.topbanner_studyabroad h2,.topbanner_immigration h2 ,.topbanner_training h2,.topbanner_visaguidances h2 {
+    margin-top: 1.736vw;
+    text-align: center; 
+   
+}
+.hrlines,.hrlineimmigra,.hrlinetrain,.hrlinevisas {
+    border: 1px solid rgb(104, 194, 221);
+    margin: 2% 2% 0% 2%;
+}
+
+.topbanner {
+    width:100% ;
+    height:auto;
+    display: flex ;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    
+}
+.topbanner_immigration {
+    margin-right: 0px;
+    margin-top: 0px;
+    float: right;
+    
+
+}
+* {
+    box-sizing: border-box;
+  }
+
+.ptopbanner{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.250vw;
+    font-weight: 300;
+    color: rgba(205, 213, 255, 1);
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+margin-top:3%;
+
+}
+.h2topbanner{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.528vw;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(205, 213, 255, 1);
+    font-style: normal;
+
+}
+.h2topbanner img {
+    height: 2.7vw;
+    margin-right: 1vw;
+    /* height:2.462vw; */
+}
+.topbanner_studyabroad:hover {
+    transform: scale(1.1);
+}
+
+.topbanner_immigration:hover {
+    transform: scale(1.1);
+}
+
+.topbanner_training:hover {
+    transform: scale(1.1);
+}
+
+.topbanner_visaguidances:hover {
+    transform: scale(1.1);
+
+}
+
+
+@media only screen and  (max-width:480px) and (min-width:100px){
+    .topbanner_studyabroad,.topbanner_immigration,.topbanner_training, .topbanner_visaguidances{
+        height: 24.6vw;
+        width:38.694vw ;
+    }
+    .ptopbanner{
+        font-size: 2.2vw;
+    }
+    .h2topbanner{
+        font-size: 2.9vw;
+    }
+    .h2topbanner img {
+        height: 4vw;
+    }    
+    .hrlines,.hrlineimmigra,.hrlinetrain,.hrlinevisas {
+        border: 0.5px solid rgb(104, 194, 221);
+        margin: 1% 2% 1% 2%;
+    }
+}

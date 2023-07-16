@@ -1,0 +1,311 @@
+
+
+.logo_img{
+    text-align: left; 
+     float: left;
+}
+
+.studyabroadhome{
+    width: 45.764vw;
+    z-index: 1;
+}
+    .BottomBannerfirsthomepg{
+        width: 100%;
+    }
+
+.homepage{
+    background-color: rgb(32, 32, 32);
+    /* position: absolute; */
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    /* flex:50%; */
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+    /* gap: 5%; */
+    row-gap: 1.736vw;
+    column-gap: 1%;
+    z-index: -2;
+    /* padding-left: 1%;     */
+
+    
+
+
+}
+.homepagesecond{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 48%;
+    flex-direction: row;
+    row-gap: 1.464vw;
+    margin-top: 2%;
+    column-gap: 2vw;
+   
+}
+
+.imgstudyabroad{
+    
+    /* position: absolute; */
+    display: inline-block; 
+     height:340px ;
+    width:664px ;
+}
+
+.studyabroadintakes{
+    height:340px ;
+    width:664px ;
+    /* float: left; */
+    /* position: absolute; */
+    margin-top:120px ;
+
+}
+.homestudyabroad{
+     /* float: right; */
+     /* position: absolute; */
+     /* margin-left: 55%; */
+     margin-top: 0px;
+}
+.homefooter{
+    margin-top: 750px;
+}
+
+.mapimagediv{
+    width: 1444px;
+}
+.images{
+    display: inline-flex;
+    width: 50%;
+}
+.imagesmap{
+    margin-top: 1.5%;
+    width: 100%;
+    height: auto;   
+    position: relative;
+    
+    
+}
+.navbar_mapdiv {
+z-index: 0;
+
+}
+.studyabroadimage{
+    width: 680px;
+    padding-left: 15px;
+}
+.mainpanel{
+    width: 100%;
+}
+.popular_courses{
+    height:766px;
+    width:100% ;
+    background-color: rgb(69, 0, 1);
+
+}
+.coursesheading{
+    padding-top: 100px;
+    color: aliceblue;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+.coursesbox{
+    width:308px ;
+    height:380px ;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+.pathtosucess{
+    width:320px ;
+    height:240px ;
+}
+.titlesdiv{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+.students_testimonial{
+    width:1444px ;
+    height:610px ;
+    border: 2px solid wheat;
+    margin-top: 40px;
+}
+.studentstestheading{
+    font-size: 36px;
+    color: aliceblue;
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+.studyabroadhome{
+    margin-top: -7%;
+    margin-left: 2%;
+   
+    /* width: 50%; */
+}
+.topbannerhome{
+    margin-top: -7%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5vw;
+    margin-left: 0%;
+    width: 48%;
+    z-index: 0;
+
+}
+.homepagesecondcomponents{
+    width: 48%;
+}
+
+
+.popularcoursehomepg{
+    padding-left: 0%;
+    background-color: rgb(71, 18, 19);
+}
+.imagesmap  img:first-child {
+    width: 100%; 
+}
+.markerimg1 {
+    position: absolute;  
+    left: 52.4%;
+    top: 42%;
+    width: 2.6%;
+    cursor: pointer;
+}
+.markerimg2 {
+    position: absolute;
+    width: 2.6%;
+    left: 40.4%;
+    top: 32%;
+    cursor: pointer;
+}
+.markerimg3 {
+    position: absolute;
+        width: 2.6%;
+        left: 85.4%;
+        top: 82%;
+        cursor: pointer;
+}
+#typesofofferlettersid {
+    text-decoration: none;
+}
+.dxbaddress  {
+    /* display: none; */
+    position: absolute;
+    padding: 1%;
+    /* background-color: darkgray; */
+    border-radius: 2vw;
+    top: 10%;
+    left: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.250vw; 
+    font-weight: 600; 
+    color: black;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(3.5px);
+    border: 2px solid rgba(5, 3, 3, 0.31);
+
+}
+.dxbaddress img {
+    width: 20vw !important;
+    border-radius: 3vw;
+    /* padding: 3%; */
+}
+.chnaddress {
+    position: absolute;
+        padding: 1%;
+        border-radius: 2vw;
+        top: 10%;
+        left: 55%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.250vw;
+        font-weight: 600;
+        color: black;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(3.5px);
+        border: 2px solid rgba(5, 3, 3, 0.31);
+
+}
+.chnaddress img {
+    width: 24vw !important;
+    border-radius: 3vw;
+    /* padding: 3%; */
+}
+.ausaddress {
+    position: absolute;
+    padding: 1%;
+    border-radius: 2vw;
+    top: 20%;
+    left: 72%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.250vw;
+    font-weight: 600;
+    color: black;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 2px solid rgba(5, 3, 3, 0.31);
+
+}
+.ausaddress img {
+    width: 24vw !important;
+    border-radius: 3vw;
+    /* padding: 3%; */
+}
+ .markerimg1:hover .dxbaddress {
+     display: block;
+     transition-delay: 5s;
+
+ }
+
+ .markerimg1:onclick .dxbaddress {
+     display: block;
+     transition-delay: 5s;
+
+ }
+@media only screen and  (max-width:480px) and (min-width:100px) {
+    .topbannerhome{
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        /* margin-top: 30px; */
+        margin-left: 2%;
+        row-gap:  4vw;
+       z-index: 0;
+
+       
+
+    }
+    .studyabroadhome{
+        width: 96%;
+        margin-top: 0%;
+        margin-bottom: 4%;
+       
+    }
+    .homepagesecond{
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        row-gap: 3vw;
+    }
+    .homepagesecondcomponents{
+        width: 96%;
+    }
+    .homepage {
+        margin: 0 auto;
+    }
+        .whystudyabroad {
+            margin-left: 3%;
+        }
+}
+

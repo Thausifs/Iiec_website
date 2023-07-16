@@ -1,0 +1,193 @@
+
+.popularcoursescons{
+  
+    height: 40.667vw;
+    /* border: 2px solid rgb(43, 39, 39); */
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 0px 0px 10px  10px rgb(20, 18, 18); */
+     /* border-radius: 1.389vw; */
+     /* background-color: rgb(69,0,1); */
+     overflow: hidden;
+     padding-bottom: 2.5vw;
+     margin-top: 5%;
+   
+     /* margin-left: 1.944vw; */
+    
+  }
+  .popularcoursesmaincon{
+    background-color: rgb(69,0,1);
+    height: 53.194vw;
+    width:100%;
+  }
+  .popularcourseshead{
+    font-size: 3.056vw;
+    font-family:  'Montserrat', sans-serif;
+    color: rgb(205, 213, 255,1);
+    /* margin-left: 35%; */
+    display: block;
+    width: 100%;
+    /* background-color: rgb(69,0,1); */
+    margin-bottom: 0%;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 0.694vw;
+  }
+  .headings{
+    font-size:  2.292vw;
+    font-family:  'Montserrat', sans-serif;
+    color: rgb(205, 213, 255,1);
+    text-align: center;
+    margin: auto;
+    /* padding-left: 20%; */
+    margin-top: 10%;
+    word-wrap: break-word;
+    width: 80%;
+   
+  }
+  .popularcoursesdivsone{
+    width: 21.319vw;
+    height:26.389vw;
+    text-align: center;
+  display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    padding-bottom: 5%;
+    box-shadow: var(--box-shadow);
+     border-radius: 1.389vw;
+     background: #202020;
+ 
+     
+  }
+    .popularcoursesdivsone:hover , .popularcoursesdivstwo:hover , .popularcoursesdivsthree:hover , .popularcoursesdivsfour:hover {
+       transform: scale(1.1);
+    }
+  .popularcoursesdivstwo{
+    width: 21.319vw;
+    height:26.389vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    box-shadow: var(--box-shadow);
+     border-radius: 1.389vw;
+     background: #202020;
+    
+     padding-bottom: 5%;
+  }
+  .popularcoursesdivstwo img {
+    width: 85%;
+    height:13.819vw;
+    
+    margin-top: 10%;
+    box-shadow: 0px 0px 0.7vw  0.35vw rgb(32, 30, 30);
+    border-radius: 1.389vw;
+  }
+  .popularcoursesdivsthree img {
+    width: 85%;
+    height:13.819vw;
+  
+    margin-top: 10%;
+    box-shadow: 0px 0px 0.7vw  0.35vw rgb(32, 30, 30);
+    border-radius: 1.389vw;
+  }
+  .popularcoursesdivsfour img {
+    width: 85%;
+    height:13.819vw;
+    margin-top: 10%;
+    box-shadow: 0px 0px 0.7vw  0.35vw rgb(32, 30, 30);
+    border-radius: 1.389vw;
+  }
+  
+  .popularcoursesdivsthree{
+    width: 21.319vw;
+    height:26.389vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    box-shadow: var(--box-shadow);
+     border-radius: 1.389vw;
+     background: #202020;
+     padding-bottom: 5%;
+  
+  }
+  
+  .popularcoursesdivsfour{
+    width: 21.319vw;
+    height:26.389vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    box-shadow: var(--box-shadow);
+     border-radius: 1.389vw;
+     background: #202020;
+     padding-bottom: 5%;
+     margin-right: 2%;
+     
+  }
+  
+  
+  
+  .popularcoursesdivsone img{
+    width: 85%;
+    height:13.819vw;
+    margin-top: 10%;
+    box-shadow: 0px 0px 0.7vw  0.35vw rgb(32, 30, 30);
+    border-radius: 1.389vw;
+  }
+  .firstparaheadingBB{
+    font-size: 2.292vw;
+    color: aliceblue;
+    margin-left: 10%;
+    text-decoration: underline;
+    text-underline-offset: 0.694vw;
+  
+  }
+  
+  @media only screen and  (max-width:480px) and (min-width:150px){
+    .popularcoursesmaincon{
+      height: 120vw;
+    }
+    .popularcoursescons{
+        height: 110vw;
+        display: inline-block;
+        /* flex: 50%; */
+        justify-content: space-between;
+        padding-bottom: 8vw;
+  
+    }
+    .popularcoursesdivsone, .popularcoursesdivstwo , .popularcoursesdivsthree , .popularcoursesdivsfour {
+        height: 40%;
+        width: 45%;
+        /* margin-left: 3%; */
+       
+    }
+     .popularcoursesdivsfour{
+       float: right;
+    }
+    .popularcoursesdivstwo{
+        float: right;
+        margin-right: 2%;
+    }
+    .secondpara {
+        font-size: 2.5vw;
+    }
+    .secondparaheading{
+        font-size: 3.2vw;
+    }
+    .popularcoursesdivsthree img , .popularcoursesdivsfour img , .popularcoursesdivstwo img , .popularcoursesdivsone img  {
+        height: 22vw;
+        /* width: 32vw; */
+    }
+    .popularcourseshead{
+      font-size: 4.5vw;
+    }
+    .headings{
+      font-size: 4vw;
+      padding-left: 3%;
+      text-align: center;
+    }
+    
+  }

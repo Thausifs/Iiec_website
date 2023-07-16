@@ -1,0 +1,191 @@
+.studyabroad {
+  /* height : 103.194vw; */
+  width: 100%;
+  /* border: 0.2px solid black; */
+  background-image: linear-gradient(234deg, rgb(63, 63, 63), rgb(58, 58, 58));
+  color: rgb(205, 213, 255);
+  border-radius: 1.7vw;
+  /* position: absolute; */
+  /* margin-left: 50%; */
+  margin: 0%;
+  box-shadow: 0px 0px 0.694vw 0.347vw black;
+  box-shadow: var(--box-shadow);
+  padding: 2% 0%;
+}
+.listitemsstudyabrd li {
+  list-style: none;
+}
+.studyabroad_inner {
+  margin: auto;
+  height: 100vw;
+  width: 79%;
+}
+.studyabroad_heading {
+  margin: auto;
+  height: 5.694vw;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.studyabroad_input {
+  height: 3.506vw;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  border: 0.139vw solid rgb(208, 56, 55);
+  border-radius: 15px;
+  margin-top: 2.083vw;
+  padding: 2%;
+  font-size: 1.136vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background: linear-gradient(135deg, #424242 0%, #3c3c3c 100%);
+  box-shadow: -0.14vw 0.14vw 0.28vw rgba(25, 25, 25, 0.2),
+    0.14vw -0.14vw 0.28vw rgba(25, 25, 25, 0.2),
+    -0.14vw -0.14vw 0.28vw rgba(101, 101, 101, 0.9),
+    0.14vw 0.14vw 0.3vw rgba(25, 25, 25, 0.9),
+    inset 0.07vw 0.07vw 0.14vw rgba(101, 101, 101, 0.3),
+    inset -0.07vw -0.07vw 0.14vw rgba(25, 25, 25, 0.5);
+}
+.studyabroad_inner input:focus {
+  outline: none;
+  border: 0.139vw solid rgb(219, 119, 119) !important;
+}
+
+.studyabroad_inner input:-webkit-autofill,
+.studyabroad_inner input:-webkit-autofill:hover,
+.studyabroad_inner input:-webkit-autofill:focus,
+.studyabroad_inner input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgb(72, 69, 69) inset !important;
+}
+.studyabroad_inner input:-webkit-autofill {
+  -webkit-text-fill-color: rgb(255, 255, 255) !important;
+}
+.register_buttons {
+  border-radius: 1.667vw;
+  border: 0.139vw groove rgb(208, 56, 59);
+  background-color: rgb(208, 56, 59);
+  height: 4.653vw;
+  width: 53.5%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 22%;
+  font-weight: bold;
+  color: rgb(205, 213, 255, 1);
+  box-shadow: 0px 0px 0.347vw 0.347vw rgb(134, 58, 58);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.667vw;
+  cursor: pointer;
+}
+
+.studybottomheading {
+  height: auto;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.428vw;
+  color: #cdd5ff;
+}
+.listitemsstudyabrd {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.389vw;
+  height: auto;
+  text-align: left;
+}
+
+.studyabroad_input::placeholder {
+  color: rgb(205, 213, 255, 1);
+  font-size: 0.989vw;
+  /* padding:2%; */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+}
+.stdabdheadthree {
+  font-size: medium;
+  font-weight: 400;
+  font-size: 2.222vw;
+  font-family: 'Montserrat', sans-serif;
+}
+/* .registerbtntitle{
+     font-size: 24px;
+ } */
+.register_buttons:hover {
+  background-color: rgb(111, 18, 18);
+}
+.stdabrdh1 {
+  font-family: Montserrat;
+  font-size: 2.222vw;
+  font-weight: 700;
+  line-height: 2.708vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.checkboxforstudyabroad {
+  height: 1.667vw;
+  width: 1.667vw;
+}
+
+.spinner {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 100px) {
+  .studyabroad {
+    height: 190.597vw !important;
+    border-radius: 4vw;
+  }
+
+  .stdabrdh1 {
+    font-size: 4.44vw;
+  }
+  .stdabdheadthree {
+    font-size: 4.44vw;
+  }
+  .studybottomheading {
+    font-size: 3vw;
+  }
+  .studyabroad_input::placeholder {
+    font-size: 2.8vw;
+  }
+  .listitemsstudyabrd {
+    font-size: 2.8vw;
+  }
+  .register_buttons {
+    font-size: 2.6vw;
+    height: 6vw;
+    width: 45%;
+  }
+  .studyabroad_input {
+    font-size: 3.5vw;
+    margin-top: 5vw;
+    height: 6vw;
+  }
+  .register_buttons:hover {
+    background-color: rgb(111, 18, 18);
+  }
+  .listitemsstudyabrd {
+    font-size: 2.4vw;
+  }
+  .studyabroad_inner ul {
+    padding-left: 4%;
+  }
+}

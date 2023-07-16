@@ -1,0 +1,107 @@
+
+.cardimg{
+    margin-top: 0%;
+       display: inline-block;
+}
+ 
+.cardcomponents img{
+    width: 25.22vw;
+    height: 23.181vw;
+    padding: 4%;
+   
+     
+
+    
+}
+.cardcomponents{ 
+
+     width: 47vw;
+     height: 23.264vw;
+     display: flex;
+     position: relative;
+     background-color: rgb(52, 52, 52);
+     box-shadow: var(--box-shadow);
+     border-radius: 1.497vw;
+     /* margin-left: 2%; */
+     margin-top: 1%;
+     margin-bottom: 1%;
+     
+}
+
+.cardone {
+    color: black;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 6% ;
+    position: absolute;
+    height: 5%;
+    
+    margin-left: 52%;
+    font-size: 1.211vw;
+    color: rgba(205, 213, 255, 1);
+    font-family: 'Montserrat' ;
+font-style: normal;
+font-weight: 600;
+/* font-size: 1.388vw; */
+text-underline-offset: 0.856vw;
+text-decoration-thickness: 0.18vw ;
+text-decoration-color:rgba(205, 213, 255, 0.6); ;
+
+}
+.textdec_sm {
+    text-underline-offset: 0.356vw;
+}
+.txdecnone {
+    text-decoration: none;
+}
+.cardtwo{
+    
+    width: 45%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 13% ;
+    color: rgba(205, 213, 255, 1); 
+     font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 1.25vw ;  
+}
+.mt_6{
+    margin-top:11%;
+    font-size: 1.02vw;
+}
+.cardcomponents:hover {
+    transform: scale(1.1);
+}
+/* }
+.cardimg{
+    width: 50px;
+    height: 50px;
+    } */
+
+ @media only screen and  (max-width:480px) and (min-width:150px){
+    .cardone{
+        font-size: 2.5vw;
+    }
+    .cardtwo{
+        font-size: 2.3vw;
+    }
+    .cardcomponents{ 
+        height: 40.264vw;
+        width: 96%;
+        border-radius: 3.497vw;
+    }
+    .cardcomponents img{
+        width: 48vw;
+        height: 40.181vw;
+    
+        
+    }
+
+    .mt_6{
+       font-size: 1.8vw;
+    }
+    
+}

@@ -1,0 +1,253 @@
+.td_sm{
+    text-underline-offset: 0.456vw !important;
+}
+
+.bottombannersecondconbb{
+    width:94vw;
+    height: 36.667vw;
+    border: 0.139vw solid rgb(43, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0.7vw  0.7vw rgb(20, 18, 18);
+     border-radius: 1.389vw;
+     background-color: rgb(52, 52, 52);
+     overflow: hidden;
+     padding-bottom: 2.5vw;
+   
+     margin-left: 1.944vw;
+    
+}
+
+.bottombannersecondonebb{
+    width: 21.319%;
+    height: auto;
+    
+ display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    padding-bottom: 5%;
+    box-shadow: var(--boxshadow2);
+     border-radius: 1.389vw;
+     background-color:  rgba(32, 32, 32, 1);
+   
+     
+}
+.bottombannersecondtwobb{
+    width: 21.319vw;
+    height: auto;
+ 
+    display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    box-shadow: var(--boxshadow2);
+     border-radius: 1.389vw;
+     background-color:  rgba(32, 32, 32, 1);
+    
+     padding-bottom: 5%;
+}
+.bottombannersecondtwobb img {
+    width: 85%;
+    height:13.819vw;
+}
+.bottombannersecondthreebb img {
+    width: 85%;
+    height:13.819vw;
+}
+.bottombannersecondfourbb img {
+    width: 85%;
+    height:13.819vw;
+}
+
+.bottombannersecondthreebb{
+    width: 21.319%;
+    height: auto;
+   
+    display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    box-shadow: var(--boxshadow2);
+     border-radius: 1.389vw;
+     background-color:  rgba(32, 32, 32, 1);
+     padding-bottom: 5%;
+
+}.bottombannersecondfourbb{
+    width: 21.319%;
+    height: auto;
+    
+    display: inline-block;
+    margin-top: 2.778vw;
+    margin-left: 1.7vw;
+    box-shadow: var(--boxshadow2);
+     border-radius: 1.389vw;
+     background-color:  rgba(32, 32, 32, 1);
+     padding-bottom: 5%;
+     margin-right: 2%;
+     
+}
+
+.bottombannersecondimgdiv img {
+    width: 17.292vw;
+    height: 13.819vw;
+   
+}
+.bottombannersecondimg{
+    width: 17.292%;
+    height: 13.819vw;
+    border-radius: 1.389vw;
+    box-shadow: 0px 0px 0.7vw  0.7vw rgb(32, 30, 30);
+    
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.bottombannersecondonebb img{
+    width: 85%;
+    height:13.819vw;
+}
+.firstparaheadingBB{
+   
+    color: #CDD5FF;
+    margin-left: 10%;
+    text-underline-offset: 0.856vw;
+    text-decoration-thickness: 0.18vw ;
+    text-decoration-color:rgba(205, 213, 255, 0.6); 
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+    
+
+}
+.secondparaheadings{
+    font-size: 1.667vw;
+    color: aliceblue;
+    margin-left: 10%;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-underline-offset: 0.556vw;
+    text-decoration-thickness: 0.18vw ;
+    text-decoration-color:rgba(205, 213, 255, 0.6); 
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+    line-height: 1.8vw;
+}
+.firstparaBB{
+    font-size: 1.250vw;
+    color: white;
+    
+    margin-left: 10%;
+}
+.secondparaheading{
+    font-size: 1.667vw;
+    color: rgba(205, 213, 255, 1); 
+    margin-left: 10%;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-underline-offset: 0.856vw;
+    text-decoration-thickness: 0.18vw ;
+    text-decoration-color:rgba(205, 213, 255, 0.6); 
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+
+}
+.secondpara{
+    font-size: 1.250vw;
+    color: rgba(205, 213, 255, 1); 
+    width: 75%;
+    margin-left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw; 
+}
+.secondparahead{
+    font-size: 1.667vw;
+    color: white;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.secondparaheadingtwo{
+    font-size: 11.250vw;
+    color: rgba(205, 213, 255, 1); 
+    margin-left: 10%;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    
+     
+}
+
+.secondparatwo{
+    font-size: 1.250vw;
+    color: rgba(205, 213, 255, 1); 
+    width: 75%;
+    margin-left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw; 
+    
+} 
+.bottombannersecondonebb:hover {
+    transform: scale(1.1);
+}
+
+.bottombannersecondtwobb:hover {
+    transform: scale(1.1);
+}
+
+.bottombannersecondthreebb:hover {
+    transform: scale(1.1);
+}
+
+.bottombannersecondfourbb:hover {
+    transform: scale(1.1);
+
+}
+
+.ul_none {
+    text-decoration: none;
+}
+@media only screen and  (max-width:480px) and (min-width:150px){
+    .bottombannersecondconbb{
+        height: 110vw;
+        display: inline-block;
+        /* flex: 50%; */
+        justify-content: space-between;
+        padding-bottom: 8vw;
+        width:90vw;
+
+    }
+    .bottombannersecondonebb, .bottombannersecondtwobb , .bottombannersecondthreebb , .bottombannersecondfourbb {
+        height: 50%;
+        width: 45%;
+        /* margin-left: 3%; */
+       
+    }
+     .bottombannersecondfourbb{
+       float: right;
+    }
+    .bottombannersecondtwobb{
+        float: right;
+        margin-right: 2%;
+    }
+    .secondpara {
+        font-size: 2.2vw;
+    }
+    .secondparatwo{
+        font-size: 1.8vw;
+    }
+    .secondparaheading , .secondparaheadings {
+        font-size: 2.8vw;
+    }
+
+    .bottombannersecondthreebb img , .bottombannersecondonebb img , .bottombannersecondtwobb img , .bottombannersecondfourbb img  {
+        height: 22vw;
+        /* width: 32vw; */
+    }
+    
+}

@@ -1,0 +1,53 @@
+.whystudyabroad{
+    width: 100%;
+    /* height:16.667vw; */
+    color: aliceblue;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    
+    /* background-color: rgb(32, 32, 32); */
+}
+.whystudyabroad h1{
+    /* font-size: 2.083vw; */
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.361vw;
+    font-size: 700;
+    color: rgb(205, 213, 255,1);
+}
+
+.whystudyabroad p {
+    font-size: 1.389vw;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(205, 213, 255,1);
+    font-weight:500    ;
+    font-style: normal;
+}
+
+.whystudyabroad h2{
+    font-size: 2.361vw;
+    text-align: left;
+    color: aliceblue;
+    margin-top: 8%;
+    margin-left: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(205, 213, 255,1);
+    
+}
+
+ @media only screen and  (max-width:480px) and (min-width:100px){
+    .whystudyabroad h1{
+        font-size: 4.7vw;
+    }
+    .whystudyabroad p{
+        font-size: 2.8vw;
+    }
+    .whystudyabroad h2{
+        font-size: 4.7vw;
+    }
+        .whystudyabroad {
+            margin-left: 3%;
+        }
+   
+
+}
